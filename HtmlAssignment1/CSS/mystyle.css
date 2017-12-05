@@ -1,0 +1,243 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, menu, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,menu,section { 
+    display:block;
+}
+
+ ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+.headerFirst {
+	width: 1100px;
+	height: 45px;
+	margin: auto;
+	padding: 15px 0px;
+	//background-color: powderblue;
+}
+.logo {
+	float: left;
+}
+.menu {
+	float: right;
+}
+.menu li {
+	display: inline;
+	padding-left: 45px;
+}
+.clearFloat {
+	clear: both;
+}
+.headerSecond {
+  background-color: rgb(51, 51, 51);
+  width: 100%;
+  height: 90px;
+  margin: auto;
+  padding: 35px 0 0 0;
+}
+.montana {
+	float: left;
+	padding-left: 250px;
+}
+input {
+	width: 220px;
+	height: 35px;
+}
+.formSearch {
+	float: right;
+	padding-right: 250px;
+
+}
+.container {
+	width: 1100px;
+	margin: auto;
+	padding: 0px 80px;
+
+}
+.leftContent {
+	width: 710px;
+	float: left;
+	padding-right:10px;
+	
+}
+.imgTextContainer{
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
+	padding-top: 40px;
+
+}
+.imgContainer {
+	width: 220px;
+	float: left;
+}
+.textContainer {
+	width: 470px;
+	float: right
+}
+
+h4 {
+	font-size: 22px;
+  	font-family: "Montserrat";
+  	color: rgb(51, 82, 222);
+}
+
+p{
+  text-align: justify;
+  width: 439px;
+  height: 62px;
+}
+.comment {
+	float: left;
+}
+.social {
+	float: right;
+}
+.rightContent {
+	width: 230px;
+	float: right;
+	padding-top: 40px;
+  padding-left: 10px;
+}
+.maps li{
+  display: inline;
+}
+
+.mapContent {
+  width: 220px;
+  height: 220px;
+  background-color: powderblue;
+  margin-bottom: 20px;
+}
+.recentPost {
+  margin:20px 0;
+}
+.recentPost p{
+	border-bottom: 1px solid black;
+  width: 220px;
+  margin-bottom: 20px;
+}
+.archives{
+  width: 220px;
+  margin-bottom: 20px;
+}
+.archives li {
+  margin-bottom: 20px;
+}
+.footer {
+  margin-top: 180px;
+  width: 100%;
+  background-color: #252629;
+  height: 230px;
+}
+.footerLogo {
+  float: right;
+  padding-right: 80px;
+}
+.leftFooter {
+  padding-left: 80px;
+  float: left;
+}
+.leftFooter li{
+  display: inline-block;
+  padding-right: 40px;
+}
+.leftFooterContent li{
+  display: block;
+}
+.rightFooter {
+  float: right;
+  padding-right: 80px;
+  width: 320px;
+}
+.rightFooterHeader li{
+  display: inline;
+}
+.socialFooter{
+  margin-top: 25px;
+  padding-left: 145px
+}
