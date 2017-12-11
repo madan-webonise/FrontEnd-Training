@@ -1,0 +1,501 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, menu, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+body{
+    background-color: #cccccc;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    color:#0099cc;
+}
+.container{
+    width: 1170px;
+    margin:auto;
+    background-color: #ffffff;
+}
+.logo{
+    float: left;
+    width:180px;
+    padding: 20px 16px 22px 19px;
+}
+.header a{
+    display: inline-block;
+}
+.menuWrapper{
+    float:right;
+    width: 954px;
+    border-left: 1px solid #e5e5e5;
+    font-weight: 600;
+}
+.menuWrapper li{
+    text-transform: uppercase;
+    text-decoration-style: bold;
+}
+.mainMenu {
+    border-bottom: 1px solid #e5e5e5;
+}
+.mainMenu ul{
+    padding:13px 0 11px 19px;
+}
+.mainMenu li{
+    font-size: 11px;
+    float: left;
+    padding-right: 23px;
+}
+.mainMenu li a{
+    color: #666666;
+}
+.clearFloat.floatNone{
+    float: none;
+}
+.subMenu ul{
+    padding: 19px 0 19px 19px;
+}
+.subMenu li{
+    font-size: 16px;
+    padding-right: 48px;
+    float: left;
+}
+.subMenu li a:hover{
+   color:#222222;
+}
+.subMenu li.active a  {
+    color: #222222;
+}
+.clearFloat{
+    clear: both;
+}
+
+.contentWrapper{
+    margin-top: 60px;
+}
+.leftBox{
+    float: left;
+    width: 240px;
+    padding-top: 25px;
+    padding-bottom: 72px;
+}
+.energyAndPowerList a{
+    word-wrap: break-word;
+}
+.energyAndPowerList h4{
+    padding: 4px 0 0 29px;
+    color: #222222;
+    font-size: 13px;
+}
+.energyAndPowerList ul{
+    padding:0 22px 0 38px;
+}
+.energyAndPowerList li{
+    padding-top: 18px;
+    font-size: 12px;
+}
+.centerBox{
+    float: left;
+    width: 629px;
+    padding-top: 25px;
+    padding-left: 30px;
+    border-left: 1px solid #e5e5e5;
+    padding-bottom: 72px;
+}
+.centerBoxNav li{
+    float: left;
+    padding-right: 24px;
+}
+.centerBoxNav li :hover{
+   color: #666666;
+}
+.centerBoxNav li a{
+    display: block;
+}
+.energyDailyReport h3{
+    font-size: 36px;
+    color: #222222;
+    padding-top: 31px;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+.imgContainer{
+    width: 629px;
+    height: 120px;
+    background-image: url("../images/energyAndPower.jpg");
+    margin-bottom: 10px;
+}
+.textContainer {
+    text-align: center;
+    padding:51px 0 49px 0;
+    font-size: 24px;
+    color: #ffffff;
+}
+.textContainer a{
+    color: #ffffff;
+}
+.energyDailyReport ul li {
+    padding-top: 30px;
+}
+.energyDailyReport ul li p{
+    line-height: 22px;
+}
+.energyDailyReport a{
+    display: inline-block
+}
+.reportDate {
+    /*padding-top: 2px;*/
+    line-height: 28.19px;
+    font-size: 12.08px;
+}
+.reportDate a{
+    color: #000000;
+}
+.publishedReports{
+    padding-top: 40px;
+}
+.publishedReportsNav li{
+    text-transform: uppercase;
+    float: left;
+    padding: 0 13px 0 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.publishedReportsNav a{
+    display: block;
+}
+.publishedReportsNav li :hover{
+    color: #222222;
+}
+.publishedReportsNav{
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 16px;
+}
+.iotReports h3{
+    padding-top: 30px;
+    padding-bottom: 14px;
+}
+.iotReportTitle a{
+    color: #ffffff;
+}
+.yellowBox{
+    background-color: #e0b011;
+    float: left;
+    width: 300px;
+    padding-top: 25px;
+    padding-bottom: 22px;
+}
+.iotReportTitle h4{
+	font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+}
+.iotReportDescription a{
+    color: #ffffff;
+}
+.iotReportTitle.colorYellowBox{
+    border-bottom: 1px solid #bf960e;	
+}
+.iotReportDescriptionDate a{
+    color:#000000;
+    padding: 19px 0 0 0;
+}
+.iotReportDescription p{
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.iotReports a{
+    display: block;
+}
+.iotReportDescriptionLink{
+	font-size: 14px;
+	padding-top: 7px;
+}
+.greenBox{
+    background-color: #7eb923;
+    float: left;
+    width: 300px;
+    padding-top: 25px;
+    padding-bottom: 22px;
+    margin-left: 29px;
+}
+.iotReportTitle{
+	padding-bottom: 16px;
+    padding-left: 19px;
+}
+.iotReportTitle.colorGreenBox{
+    border-bottom: 1px solid #6b9d1e;	
+}
+.iotReportDescription{
+	padding-left: 19px;
+}
+
+.rightBox{
+    float: left;
+    width: 240px;
+    padding-top: 25px;
+    margin-left: 30px;
+    padding-bottom: 72px;
+}
+.helpBox{
+    width: 210px;
+    background-color: #f3f3f3;
+   	padding:20px 0 23px 16px;
+}
+.helpBox h3{
+	color:#222222;
+	font-size: 16px;
+	font-weight: 400;
+}
+.helpBox p{
+	font-size: 13px;
+	line-height: 20px;
+	padding-top: 13px;
+	word-wrap: break-word;
+}
+.analyst{
+    width: 230px;
+    margin-top: 40px;
+}
+.analyst h3 {
+	padding-bottom: 1px;
+	color: #222222;
+	font-size: 16px;
+	font-weight: 400;
+}
+.analyst li{
+	padding-top: 20px;
+}
+.analystImg{
+    float: left;
+    width: 60px;
+}
+.analyst a{
+    display: block;
+}
+.analystNameDesignation{
+    float: left;
+    width: 157px;
+    padding-left: 13px;
+}
+.analystNameDesignation h4{
+	font-size: 14px;
+	line-height: 22px;
+	font-weight:400;
+}
+.analystNameDesignation h5{
+	font-size: 12px;
+	font-weight:400;
+}
+.analystNameDesignation a{
+	display: inline-block;
+	color: #222222;
+}
+.footer {
+    background-color: rgb(37, 38, 41);
+    margin-bottom: 2px;
+}
+.footerContainer{
+    width: 1170px;
+    margin:auto;
+    padding: 68px 0 90px 0;
+}
+.footerLeft{
+    float: left;
+    width: 132px;
+}
+.footerLeft h4{
+	color: #acadaf;
+    font-size: 12px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+.socialGroup li{
+    float: left;
+    width: 25px;
+    height: 25px;
+    padding-right: 8px;
+    background-image: url(../images/sprite.png);
+}
+.socialGroup .clearFloat.floatNone{
+	display: none;
+	float: none;
+}
+.socialGroup li a{
+	display: inline-block;
+}
+.facebookFooter{
+	background-position: -7px -5px;
+}
+.twitterFooter{
+	background-position: -7px -40px;
+}
+.linkedInFooter{
+	background-position: -7px -75px;
+}
+.gmailFooter{
+	background-position: -7px -110px;
+}
+.footerCenter{
+    float:left;
+    width: 838px;
+    color: white;
+}
+.footerCenter ul{
+    padding-left: 150px;
+}
+.footerCenter li{
+    float: left;
+    font-size: 14px;
+    padding: 0px 10px 0px 10px;
+}
+.footerCenter a{
+    display: block;
+}
+.footerUpper {
+	padding-bottom: 21px;
+	padding-left: 30px;
+}
+.footerUpper a{
+    color: #ffffff;
+    font-size: 11px;
+}
+.footerBelow a{
+    color: black;
+    font-size: 11px;
+    color: #acadaf;
+}
+.footerUpper li{
+	border-right: 1px solid #888888;
+}
+.footerBelow li{
+	border-right: 1px solid #888888;
+}
+.footerCenter li.borderNone{
+	border-right: none;
+}
+.footerRight{
+    float: left;
+    width: 200px;
+    color: white;
+}
+.footerRight h4{
+	font-size: 12px;
+	font-weight: 600;
+	color: #acadaf;
+}
+.socialGroupTransaction ul{
+	padding-top: 20px;
+}
+.socialGroupTransaction li{
+	float: left;
+	width: 42px;
+	height: 25px;
+	padding-right: 8px;
+	background-image: url(../images/sprite.png);
+}
+.socialGroupTransaction .clearFloat.floatNone{
+	display: none;
+	float: none;
+}
+.socialGroupTransaction li a{
+	display: inline-block;
+}
+.viasFooter{
+	background-position: -10px -145px;
+}
+.masterFooter{
+	background-position: -10px -181px;
+}
+.americanExpressFooter{
+	background-position: -10px -216px;
+}
+.paypalFooter{
+	background-position: -42px -5px;
+}
