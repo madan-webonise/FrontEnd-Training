@@ -1,0 +1,19 @@
+.imgContainer{
+	width:250px;
+	height: 250px;
+	position:relative;
+	margin: 100px 0 0 500px;
+}
+.mySlides{
+	width: 100%;
+}
+.slideBtnLeft{
+	position:absolute;
+	top: 50%;
+	left: 40%;
+}
+.slideBtnRight{
+	position:absolute;
+	top: 50%;
+	left: 50%;
+}
