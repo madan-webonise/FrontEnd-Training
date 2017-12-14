@@ -1,0 +1,467 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, menu, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:100%;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.logo
+{
+    float: left;
+    width: 254px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.logo img{
+    width: 100%;
+}
+.menuWrapper{
+    float: right;
+}
+.clearFloat{
+    clear: both;
+}
+.clearFloat.floatNone{
+    float: none;
+}
+.header{
+    margin-bottom: 22px;
+}
+.header a{
+    display:block;
+}
+.menu li{
+    text-transform: uppercase;
+    float: left;
+    font-size: 16px;
+    padding-right: 30px;
+}
+.menuWrapper li a{
+    color: #000000;
+}
+.menuWrapper li a:hover{
+    color: #838282;
+}
+.search{
+    float: right;
+    height: 80px;
+}
+.menu{
+    float: left;
+    padding-top: 34px;
+    padding-bottom: 30px;
+}
+.contentMenu ul{
+    margin-bottom: 30px;
+}
+.contentMenu li{
+    float: left;
+    font-size: 15px;
+    padding-right: 25px;
+}
+.contentMenu li a{
+    color: #000000;
+}
+.contentMenu li a:hover{
+    color: #838282;
+}
+.contentHolder h1{
+    font-size: 40px;
+    color: #353535;
+    text-align: center;
+    line-height: 100%;
+    margin-bottom: 60px;
+}
+.contentHolder ul li{
+    float: left;
+    margin-right: 30px; 
+    margin-bottom: 30px;
+}
+.imageContainer {
+    background-color: #b3b3b3; 
+    width: 360px;
+    height: 283px;
+    text-align: center; 
+    display:table-cell; 
+    vertical-align:middle;
+}
+.imageContainer img{
+    max-width: 100%;
+}
+.footer{
+    margin-top: 102px;
+    margin-bottom: 30px;
+}
+.footerMenu{
+    float: left;
+    width: 400px;
+}
+.footerMenu li{
+    float: left;
+    padding-left: 50px;
+    font-size: 16px;
+}
+.footerMenu li a{
+    color:#000000;
+}
+.footerCopyright{
+    float: left;
+    width: 370px;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    word-wrap: break-word;
+}
+.footerSocialMedia{
+    float: left;
+    width: 400px;
+}
+.socialMediaFollowUs{
+    float: left;
+    width:80px;
+    margin-left: 60px;
+    font-size: 16px;
+    color: #000000;
+}
+.socialMediaIcons{
+    float: left;
+    width:260px;
+}
+.socialMediaIcons li {
+    float: left;
+    margin-left: 15px;
+    background-image: url(../images/sprite.png);
+}
+.socialMediaIcons li a{
+    display: block;
+    width: 33px;
+    height: 33px;
+}
+.socialMediaIcons .clearFloat.floatNone{
+    display: none;
+    float: none;
+}
+.facebookFooter {
+    background-position: -10px -10px;
+}
+.twitterFooter{
+    background-position: -10px -53px;
+}
+.pinterestFooter{
+    background-position: -10px -96px;
+}
+.instagramFooter{
+    background-position: -10px -139px;
+}
+@media only screen and (max-device-width : 1199px) {
+    .container {
+        width: 970px;
+    }
+    .logo
+    {
+        float: left;
+        width: 220px;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .menuWrapper{
+        float: right;
+    }
+    .header{
+        margin-bottom: 15px;
+    }
+    .header a{
+        display:block;
+    }
+    .menu li{
+        text-transform: uppercase;
+        float: left;
+        font-size: 15px;
+        padding-right: 20px;
+    }
+    .contentMenu ul{
+        margin-bottom: 20px;
+    }
+    .contentMenu li{
+        float: left;
+        font-size: 15px;
+        padding-right: 20px;
+    }
+
+    .contentHolder h1{
+        font-size: 25px;
+        line-height: 100%;
+        margin-bottom: 40px;
+    }
+    .contentHolder ul li{
+        margin-right: 20px; 
+        margin-bottom: 20px;
+    }
+    .imageContainer {
+        background-color: #b3b3b3; 
+        width: 303px;
+        height: 263px;
+    }
+    
+    .footer{
+        margin-top: 90px;
+        margin-bottom: 25px;
+    }
+    .footerMenu{
+        width: 360px;
+    }
+    .footerMenu li{
+        padding-left: 40px;
+    }
+    .footerCopyright{
+        float: right;
+        width: 360px;
+    }
+    .footerSocialMedia{
+        float: none;
+        margin: 0 auto;
+    }
+    .socialMediaFollowUs{
+        float: none;
+        width:80px;
+        padding-top: 30px;
+        margin-left: 60px;
+        font-size: 15px;
+        color: #000000;
+    }
+}
+@media only screen and (max-device-width : 991px) {
+    .container {
+        width: 750px;
+    }
+    .logo
+    {
+        width: 200px;
+    }
+    .menuWrapper{
+        float: right;
+    }
+    .clearFloat{
+        clear: both;
+    }
+    .clearFloat.floatNone{
+        float: none;
+    }
+    .header{
+        margin-bottom: 15px;
+    }
+    .header a{
+        display:block;
+    }
+    .menu li{
+        text-transform: uppercase;
+        float: left;
+        font-size: 15px;
+        padding-right: 20px;
+    }
+    .contentMenu ul{
+        margin-bottom: 20px;
+    }
+    .contentMenu li{
+        float: left;
+        font-size: 15px;
+        padding-right: 20px;
+    }
+
+    .contentHolder h1{
+        font-size: 25px;
+        line-height: 100%;
+        margin-bottom: 40px;
+    }
+    .contentHolder ul{
+        width: 646px;
+        margin: auto;
+        padding-left: 20px;
+    }
+    .contentHolder ul li{
+        margin-right: 20px; 
+        margin-bottom: 20px;
+    }
+    .imageContainer {
+        background-color: #b3b3b3; 
+    }
+    
+    .footer{
+        margin-top: 90px;
+        margin-bottom: 25px;
+    }
+    .footerMenu{
+        width: 360px;
+    }
+    .footerMenu li{
+        padding-left: 40px;
+    }
+    .footerCopyright{
+        float: right;
+        width: 360px;
+    }
+    .footerSocialMedia{
+        float: none;
+        margin: 0 auto;
+    }
+    .socialMediaFollowUs{
+        float: none;
+        width:80px;
+        padding-top: 30px;
+        margin-left: 60px;
+        font-size: 15px;
+        color: #000000;
+    }
+}
+@media only screen and (max-device-width : 767px) {
+    .container {
+        width: 100%;
+    }
+        .logo{
+        width: 115px;
+    }
+    .menuWrapper{
+        display: none;
+    }
+    .contentMenu li{
+        font-size: 11px;
+    }
+    .contentHolder h1{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    .imageContainer {
+        width: 300px;
+        background-color: #b3b3b3; 
+        margin: 0 0 40px 0;
+    }
+    .imageContainer img{
+        padding: 12px 71px;
+    }
+    .footer{
+        margin-top: 102px;
+        margin-bottom: 22px;
+    }
+    .footerMenu{
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .footerMenu li{
+        float: none;
+        padding: 0;
+        font-size: 15px;
+        line-height: 35px;
+    }
+    .footerSocialMedia{
+        float: none;
+    }
+    .socialMediaFollowUs{
+        float: none;
+        display: none;
+    }
+    .socialMediaIcons{
+        float: none;
+        width:300px;
+        margin: auto;
+    }
+
+    .footerCopyright{
+        float: none;
+        width: 300px;
+        font-size: 15px;
+        padding-bottom: 40px;
+    }
+}
