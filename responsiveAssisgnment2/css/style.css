@@ -1,0 +1,554 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, menu, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+body {
+    font-family: 'Myriad Pro', sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.headerTop{
+   background-color: #19232d;
+}
+.headerBottom {
+    position: relative;
+}
+.headerTop ul {
+    float: right;
+}
+.headerTop li {
+    float: left;
+    font-size: 12px;
+    text-align: center;
+}
+.headerTop li a {
+    color: #ffffff;
+    padding: 10px 12px 10px 12px;
+    display: inline-block;
+}
+.headerTop li a:hover{
+    background-color: #01a451;
+}
+.clearFloat {
+    clear: both;
+}
+.clearFloat .floatNone {
+    float: none;
+}
+.logo {
+    float: left;
+    width: 220px;
+    position: absolute;
+    top: -32px;
+    z-index: 2;
+}
+.logo img{
+    width: 100%;
+    display: block;
+}
+.logo a {
+    display:inline-block;
+}
+.navigationBar {
+    float: right;
+}
+.navigationBar li {
+    text-transform: uppercase;
+    font-size: 16px;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #dbdbdb;
+    border-left: 1px solid #dbdbdb;
+}
+.navigationBar li a {
+    color:#19232d;
+    padding: 30px 12px 24px 16px;
+    display: inline-block;
+}
+.navigationBar li a:hover {
+    color: #cd091d;
+    background-color: #eeeeee;
+}
+.banner {
+    margin-bottom: 42px;
+    position: relative;
+}
+.overlayBackground {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.5;
+    z-index: 1;
+    display: none;
+}
+.banner .bannerImage img {
+    width: 100%;
+}
+.bannerText {
+    position: absolute;
+    top: 33%;
+    left: 33%;
+    display: none;
+}
+.bannerText p{
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center
+}
+.banner:hover .overlayBackground {
+   display: block;
+}
+.banner:hover .bannerText {
+   display: block;
+}
+.filterCourses {
+    float: left;
+    width: 300px;
+    background-color: #f8f8f8;   
+    border: 1px solid #cccccc;
+}
+
+.dropDownIcon {
+	float:left;
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 10px solid #cd091d;
+	border-bottom: 10px solid transparent;
+	margin-top:18px;
+	display:none;
+}
+.filterCourseTitle {
+	float:left;
+}
+
+.filterCourseTitle h2 {
+    color:#cd091d;
+    font-size: 21px;
+    padding: 20px 0;
+}
+.filterCourseTitleWrapper {
+	border-bottom: 1px solid #cccccc;
+    padding-left:20px;
+}
+.recommendations {
+    padding: 20px 0 4px 20px;
+}
+.recommendations h4 {
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.recommendations form li{
+    padding-bottom: 16px;
+    font-size: 12px;
+}
+.nfhsCourses {
+    float: left;
+    width: 830px;
+    margin-left: 38px;
+}
+.nfhsCourseTitle h2{
+    color: #cd091d;
+    font-size: 24px;
+    padding-top: 18px;
+    padding-bottom: 28px;
+}
+
+.courseList li{
+    margin-bottom: 20px;
+    border: 1px solid #eeeeee;
+    background-color: #f8f8f8;
+    height: 158px;
+}
+.courseTypeImage {
+    float: left;
+    width: 238px; 
+}
+.courseTypeImage img {
+    width: 100%;
+    display: block;    
+}
+.courseTypeImage a {
+    display: block;
+    height: 100%;
+}
+.courseTypeDescription{
+    float: left;
+    width: 590px;
+}
+.courseTypeContent {
+    padding-left: 14px;
+}
+.courseTypeDescription h3 {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 14px;
+}
+.iconHolder {
+    float: left;
+    width: 16px;
+    height: 24px;
+}
+.iconHolder img{
+    width: 100%;
+    height: 100%;
+}
+.courseSpecificText {
+    float: left;
+    padding:3px 0 3px 10px;
+}
+.usersList form{
+    padding :16px 0 8px 0;
+}
+.courseTypeFooter {
+  background-color: #36414a;
+}
+.courseCost {
+    float: left;
+    color: #ffffff;
+    width: 68px;
+    background-color: #19232d;
+}
+.courseCost p{
+    font-size: 17px;
+}
+.completionPoints {
+    float: left;
+    padding-left: 15px;
+}
+.completionPoints p{
+    font-size: 12px;
+    color: #82878b;
+}
+.downloadsIcon {
+    display: none;
+    width: 68px;
+    float: right;
+    background-color: #19232d;
+    background-image: url("../images/spriteImage.png");
+    background-position: -10px -84px;
+    height: 32px;
+}
+.downloadsIcon a{
+    display: block;
+}
+.courseCost p, .completionPoints p{
+    text-align: center;
+    line-height: 32px;
+}
+.footer {
+    background-color: #000000;
+    color: #3f5061;
+    text-align: center;
+    font-size: 12px;
+    padding-top:10px;
+    padding-bottom: 14px;
+    margin-top: 64px;
+}
+@media only screen and (max-device-width : 1199px) {
+    .container {
+        width: 970px;
+    }
+    .logo {
+        width: 210px;
+    }
+    .navigationBar li {
+        font-size: 14px;
+    }
+    .navigationBar li a {
+        padding: 28px 10px 28px 14px;
+    }
+    .banner {
+        margin-bottom: 36px;
+    }
+    .bannerText {
+        left: 20%;
+    }
+    .bannerText p{
+        font-size: 28px;
+    }
+    .filterCourses {
+        width: 220px;  
+    }
+    .filterCourseTitle h2 {
+        font-size: 18px;
+        padding: 18px 0;
+    }
+    .recommendations {
+        padding: 12px 0 0 20px;
+    }
+    .nfhsCourses {
+        width: 724px;
+        margin-left: 24px;
+    }
+    .nfhsCourseTitle h2{
+        font-size: 20px;
+        padding-top: 16px;
+        padding-bottom: 26px;
+    }
+    .courseTypeDescription{
+        width: 484px;
+    }
+}
+@media only screen and (max-device-width : 991px) {
+    .container {
+        width: 750px;
+    }
+    .logo {
+        width: 194px;
+    }
+    .navigationBar li {
+        font-size: 12px;
+    }
+    .navigationBar li a {
+        padding: 25px 6px 33px 8px;
+    }
+    .banner {
+        margin-bottom: 26px;
+    }
+    .bannerText {
+        left: 15%;
+    }
+    .filterCourses {
+        width: 200px;  
+    }
+    .filterCourseTitle h2 {
+        font-size: 18px;
+        padding: 14px 0;
+    }
+    .recommendations {
+        padding: 12px 0 0 20px;
+    }
+    .recommendations h4 {
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+    .recommendations form li{
+        padding-bottom: 10px;
+        
+    }
+    .nfhsCourses {
+        width: 526px;
+        margin-left: 22px;
+    }
+    .nfhsCourseTitle h2 {
+        font-size: 18px;
+        padding-top: 12px;
+        padding-bottom: 16px;
+    }
+    .courseList li{
+        height: 110px;
+    }
+    .courseTypeImage {
+        width: 166px;
+    }
+    .courseTypeDescription {
+        width: 358px;
+    }
+    .courseTypeDescription h3 {
+        font-size: 14px;
+        line-height: 10px;
+        padding: 10px 0 10px 14px;
+    }
+    .usersList form {
+        padding: 6px 0 6px 0;
+    }
+    .courseSpecificText {
+        font-size: 14px;
+    }
+    .courseCost {
+        width: 48px;
+    }
+    .courseCost p{
+        font-size: 14px;
+    }
+    .courseCost p, .completionPoints p {
+        line-height: 24px;
+    }
+
+}
+
+
+@media only screen and (max-device-width : 767px) {
+    .container {
+        width: 100%;
+    }
+    .logo {
+        width: 180px;
+    }
+    .navigationBar li {
+        display: none;
+    }
+    .banner {
+        margin-top: 70px;
+        margin-bottom: 26px;
+    }
+    .bannerText {
+        left: 16%;
+    }
+    .bannerText p {
+        font-size: 16px;
+    }
+    .dropDownIcon {
+	display:block;
+    }
+    .filterCourses {
+        float: none;
+        width: 100%;  
+	    border: none;
+    }
+    .filterCourseTitle h2 {
+        font-size: 18px;
+        padding: 18px 10px;
+    }
+    .recommendations {
+        padding: 12px 0 0 20px;
+    }
+    .nfhsCourses {
+        float: none;
+        width: 100%;
+        margin: auto;
+    }
+    .nfhsCourseTitle h2{
+        text-align: center;
+    }
+    .courseList li{
+        height: 175px;
+    }
+    .courseTypeImage {
+        width: 60px;
+        height: 42px;
+        padding: 16px 10px 8px 14px;
+
+    }
+    .courseTypeDescription{
+        float: none;
+        width: 100%;
+    }
+    .courseTypeDescription h3 {
+        font-size: 16px;
+        line-height: 20px;
+        padding-bottom: 26px;
+        padding-top: 20px;
+    }
+    .usersList form {
+        padding: 8px 0 16px 0;
+    }
+    .courseSpecificText {
+        font-size: 12px;
+    }
+    .courseCost {
+        width: 56px;
+    }
+    .courseCost p{
+        font-size: 17px;
+    }
+    .courseCost p, .completionPoints p {
+        line-height: 42px;
+    }
+    .downloadsIcon {
+        display: block;
+        height: 42px;
+    }
+}
+
+
+
+
