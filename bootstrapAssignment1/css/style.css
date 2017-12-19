@@ -1,0 +1,299 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, menu, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:100%;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+}
+a:focus, a:hover{
+    text-decoration: none;
+}
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.headerTop {
+    background-color: #5d466e;
+}
+.headerTopWrapper {
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 14px;
+}
+.headerTopWrapper p {
+    display: inline-block;
+    color: #ffffff;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 34px;
+}
+.headerTop .btn-default {
+    background-color: #5d466e;
+    font-size: 13px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    margin-left: 16px;
+}
+.headerTop .btn-default a{
+    color: #ffffff;
+}
+
+.closeIcon {
+    color : #ffffff;
+    line-height: 34px;
+}
+.logo {
+    padding-top: 12px;
+    padding-bottom: 15px;
+}
+.logo img {
+    display: block;
+}
+.logo a {
+    display: block;
+}
+.menu {
+    background-color: #ffffff;
+    border: none;
+ }
+ .menu {
+    margin-bottom: 0;
+ }
+.menu > .navbar-nav > li {
+    font-size: 16px;
+    font-weight: 400;
+}
+.menu > .navbar-nav > li > a {
+    color: #000000;
+    line-height: 50px;
+}
+.menu > .navbar-nav > li > a:hover {
+    background-color: #5d466e;
+    color: #ffffff;
+}
+
+.menu .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #ffffff;
+    background-color: #5d466e;
+}
+
+.submenuItems li {
+    font-size: 18px;
+    line-height: 30px;
+}
+.submenuItems li a {
+    background-color: #5d466e;
+    color: #ffffff;
+}
+
+.searchIcon a {
+     height: 80px;
+}
+.searchIcon a span{
+    background-image: url(../images/sprite.png);
+    background-position: -13px -221px; 
+}
+.searchIcon {
+    width: 88px;
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+}
+.banner img {
+    width: 100%;
+    display: block;
+}
+.bannerText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.bannerText p{
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.searchWrapper {
+    background-color: #5d466e;
+    margin-bottom: 66px;
+    text-align: center;
+}
+.searchWrapper h3 {
+    display: inline-block;
+    font-size: 30px;
+    color: #ffffff;
+    padding-right: 34px;
+    line-height: 112px;
+}
+.searchBox {
+    display: inline-block;
+    position: relative;
+}
+.searchBox img {
+    position: absolute;
+    top: 1px;
+    right: 0;
+    padding: 10px;
+}
+.searchBox input[type=text] {
+    height: 50px;
+    width: 470px;
+    margin-bottom: 15px;
+}
+
+.contentWrapper h3 {
+    font-size: 40px;
+    color: #353535;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 52px;
+}
+.imageContainer {
+    position: relative;
+}
+.textHolder {
+    font-size: 27px;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.contentWrapper li img {
+    width: 100%;
+    display: block;
+}
+.contentWrapper li {
+    padding-bottom: 30px;
+}
+.contentWrapper {
+    margin-bottom: 142px;
+}
+.footerMenu li { 
+    padding-left: 42px;
+    font-size: 16px;
+}
+.footerMenu li a{
+    color: #000000;
+}
+.footerCopyright {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    padding: 0 60px;
+}
+.footerSocialMedia li {
+    margin-left: 15px;
+    background-image: url(../images/sprite.png);
+}
+.followUsText {
+    font-size: 16px;
+}
+.footerSocialMedia li a{
+    display: block;
+    width: 33px;
+    height: 33px;
+}
+.facebookFooter {
+    background-position: -10px -10px;
+}
+.twitterFooter{
+    background-position: -10px -53px;
+}
+.pinterestFooter{
+    background-position: -10px -96px;
+}
+.instagramFooter{
+    background-position: -10px -139px;
+}
+
+.footer {
+    margin-bottom: 30px;
+}
