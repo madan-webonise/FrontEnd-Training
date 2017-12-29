@@ -17,28 +17,24 @@ body{
     font-family: 'Lato', sans-serif;
 }
 .clearFloat .floatNone {
-        float: none;
+    float: none;
 }
 .header {
     position: relative;
     margin-bottom: 104px;
 }
-.logo {
+.menu .navbar-brand {
     margin-top: 12px;
     margin-bottom: 15px;
+    padding :0;
     width: 252px;
-}
-.menu > .navbar-brand {
-    padding: 0;
-    display: block;
     height: inherit;
-}
-.logo img {
     display: block;
-    max-width: 100%;
 }
-.logo a {
-    display: block;
+.menu .navbar-brand > img {
+   max-width: 100%;
+   max-height: 100%;
+   display: block;
 }
 .menu {
     margin-bottom: 0;
@@ -80,15 +76,16 @@ body{
     padding: 34px 0;
     background-color: #5d466e;
 }
-.submenuItems > li {
+.submenuItems .subList {
     float: left;
 }
-.submenuItems li {
+.submenuItems .subList ul {
+    margin-left: 46px;
+    width: 188px;
+}
+.submenuItems .subList li {
     font-size: 18px;
     line-height: 30px;
-    margin-left: 46px;
-    width: 200px;
-    float: left;
 }
 .submenuItems li a {
     color: #ffffff;
@@ -131,6 +128,7 @@ body{
 }
 .searchByAlphabets>.nav-tabs {
     border : none;
+    text-align: center;
 }
 .searchByAlphabets>.nav-tabs>li>a {
     margin : 0;
@@ -208,7 +206,7 @@ body{
     float: left;
     width: 360px;
 }
-.footerMenu li { 
+.footerMenu li {
     padding-left: 42px;
     font-size: 16px;
     float: left;
@@ -242,6 +240,9 @@ body{
 .socialIcons {
     float: left;
 }
+.socialIcons li {
+    float: left;
+}
 .footerSocialMedia li a{
     display: block;
     width: 33px;
@@ -264,16 +265,17 @@ body{
 }
 
 @media only screen and (max-device-width : 991px)  {
-    .logo {
-        width: 218px;
+    .menu .navbar-brand {
+       width: 218px;
     }
-    .submenuItems li {
+    .submenuItems .subList ul {
         margin-left: 18px;
         width: 162px;
-    }    
-    /*.searchBox input[type=text] {
-        width: 402px;
-    }*/
+    }
+    .searchByAlphabets>ul>li {
+        display: inline-block;
+        float: none;
+    }
     .searchOnMap {
         height: 636px;
     }
@@ -307,20 +309,19 @@ body{
 }
 @media only screen and (max-device-width : 767px)  {
     .header {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
-    .logo {
-        width: 114px;
+   .menu .navbar-brand {
+       width: 114px;
     }
     .menu {
         float: none;
-        margin-bottom: 40px;
     }
     .menubar {
         background-color: #5d466e;
         padding-left: 24px;
         float: none;
-    }    
+    }
     .menu > .navbar-nav > li:first-child {
         display: block;
     }
@@ -333,14 +334,15 @@ body{
     .submenuItems {
         padding:0;
     }
-    .submenuItems > li {
+    .submenuItems .subList {
         float: none;
     }
-    .submenuItems li {
+    .submenuItems .subList li {
         font-size: 16px;
         line-height: 30px;
+    }
+    .submenuItems .subList ul {
         margin-left: 6px;
-        float: none;
     }
     .menubar .open .dropdown-menu {
         background-color: #5d466e;
@@ -360,10 +362,10 @@ body{
     }
     .menu > .navbar-nav > li:last-child >a{
         background-color: #fff;
-        width: 43px;
+        width: 38px;
         height: 42px;
         background-image: url(../images/sprite.png);
-        background-position: -43px 3px;
+        background-position: -43px 2px;
         background-repeat: no-repeat;
         position: relative;
         float: right;
@@ -394,9 +396,6 @@ body{
         background-color: #5d466e;
         width: 26px;
     }
-    /*.searchBox input[type=text] {
-        width: 300px;
-    }*/
     .searchByAlphabets {
         margin-bottom: 40px;
     }
@@ -412,16 +411,16 @@ body{
         font-size: 20px;
         margin-bottom: 10px;
     }
-    .searchMobile {
-        text-align: center;
-    }
-    .searchMobile h3{
+    .searchOption h3{
         font-size: 20px;
         color: #673091;
         text-align: center;
         margin-bottom: 18px;
     }
-    .searchMobile input[type="text"] {
+    .searchOption, .searchButton {
+        text-align: center;
+    }
+    .searchOption input[type="text"] {
         font-size: 15px;
         color: #838282;
         width: 300px;
@@ -442,17 +441,18 @@ body{
         margin: 0 auto;
         margin-bottom: 45px;
     }
-    .searchMobile li {
+    .searchButton li {
         background-color: #e1e1e1;
         font-size: 15px;
         width: 50%;
+        float: left;
     }
-    .searchMobile li a {
+    .searchButton li a {
         color: #a7a6a6;
         padding: 12px 20px 10px 12px;
         display: block;
     }
-    .searchMobile li a:hover,.searchMobile li a:focus {
+    .searchButton li a:hover,.searchButton li a:focus {
         color: #ffffff;
         background-color: #ee2375;
     }
@@ -479,13 +479,13 @@ body{
     }
    /* .searchByAlphabets {
         padding: 0 80px;
-    }*/
+    }
     #listingId {
         display: none;
     }
     #searchOnMapId {
         display: none;
-    }
+    }*/
     .footerMenu {
         width: 100%;
         margin-bottom: 40px;
@@ -496,7 +496,7 @@ body{
     .footerCopyright {
         width: 100%;
     }
-    .footerMenu li { 
+    .footerMenu li {
         padding :0;
         float: none;
         text-align: center;
@@ -505,4 +505,31 @@ body{
      .footerMenu > ul > li:first-child {
         padding-left: 0;
     }
+    .footerSocialMedia li a {
+        width: 45px;
+        height: 45px;
+    }
+    .facebookFooter {
+    background-position: -81px -8px;
+    }
+    .twitterFooter{
+        background-position: -81px -58px;
+    }
+    .pinterestFooter{
+        background-position: -81px -109px;
+    }
+    .instagramFooter{
+        background-position: -81px -159px;
+    }
+    .searchButton ul.tabs li.current{
+        background: #ee2375;
+    }
+    .tab-content{
+        display: none;
+    }
+
+    .tab-content .current{
+        display: inherit;
+}
+
 }
